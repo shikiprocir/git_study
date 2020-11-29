@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['text'])) {
-	$character_count = strlen($_POST['text']);
+	$character_count = mb_strlen($_POST['text']);
 } else {
 	$character_count = 0;
 	$_POST['text'] = '';

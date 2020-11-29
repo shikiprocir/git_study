@@ -1,5 +1,5 @@
 <?php
-$random_number = rand();
+$random_number = rand(1, 10000);
 ?>
 <!DOCTYPE html>
 <html lang="ja">

@@ -1,6 +1,6 @@
 <?php
 $date_time = new DateTime();
-$current_date_time = $date_time->format('Y-m-d H:i:s');
+$current_date_time = $date_time->format('Y年m月d日 H時i分s秒');
 ?>
 <!DOCTYPE html>
 <html lang="ja">
