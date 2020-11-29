@@ -17,6 +17,7 @@ if (isset($_POST['text'])) {
 <h2><?php echo $character_count; ?>文字</h2>
 <form action="" method="post">
 <p><textarea name="text" rows="10" cols="75"><?php echo $_POST['text']; ?></textarea></p>
+<p><input type="submit" name="count_button" value="カウントする"></p>
 </form>
 </body>
 </html>
