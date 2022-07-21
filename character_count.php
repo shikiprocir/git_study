@@ -19,5 +19,6 @@ if (isset($_POST['text'])) {
 <p><textarea name="text" rows="10" cols="75"><?php echo $_POST['text']; ?></textarea></p>
 <p><input type="submit" name="count_button" value="カウントする"></p>
 </form>
+<a href="https://procir-study.site/shiki402/maintask/task20/git_study/link.php">Home</a>
 </body>
 </html>
